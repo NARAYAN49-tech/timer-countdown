@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+
+* {
+    box-sizing: border-box;
+
+}
+
+body{
+    background-image: url("https://media.istockphoto.com/id/641517826/photo/close-up-of-3d-king-cobra-snake-attack-isolated-on-black-background-cobra-snake.jpg?s=612x612&w=is&k=20&c=kGk2edu2IqT556aVyiZ5V_cAg7YbomlZhv_xTY7Kc3w=");
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins',sans-serif;
+    margin: 0;
+}
+
+h1{
+    font-size: 4rem;
+    margin-top: 5rem;
+    color: white;
+    font-weight: normal;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.big-text {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+    color: white;
+}
+.countdown-container{
+    width: 50vw;
+    column-gap: 1vw;
+    position:fixed;
+    height: 30vw;
+    justify-content: center;
+    align-items: center; 
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+}
+
+.countdown-el{
+    text-align: center;
+    justify-self: center;
+    display: flex;
+    align-items: center;
+    width: 10vw;
+    display: flex;
+    flex-direction: column;
+}
+.countdown-elms{
+    margin-right: -400px;
+}
+.countdown-el .span{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.countdown-el .big-text{
+    font-size: 5rem;
+    color: white;
+}
+
+@media ((max-width: 900px)and (min-width: 700px)){
+    
+.big-text {
+    font-weight: bold;
+    font-size: 5rem;
+    line-height: 1;
+    margin: 0 2rem;
+    color: white;
+}
+.countdown-container{
+    width: 50vw;
+    column-gap: 1vw;
+    position:fixed;
+    height: 30vw;
+    justify-content: center;
+    align-items: center; 
+
+    margin-top: 12rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.countdown-el{
+    text-align: center;
+    justify-self: center;
+    display: flex;
+    align-items: center;
+    width: 6vw;
+    display: flex;
+    flex-direction: column;
+}
+.countdown-elms{
+    margin-right: -100px;
+}
+.countdown-el .span{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.countdown-el .big-text{
+    font-size: 5rem;
+    color: white;
+}
+}
+
+
+@media ((max-width: 800px)and (min-width: 650px)){
+    
+    .big-text {
+        font-weight: bold;
+        font-size: 5rem;
+        line-height: 1;
+        margin: 0 2rem;
+        color: white;
+    }
+    .countdown-container{
+        width: 50vw;
+        column-gap: 1vw;
+        position:fixed;
+        height: 30vw;
+        justify-content: center;
+        align-items: center; 
+    
+        margin-top: 12rem;
+        display: flex;
+        flex-wrap: wrap;
+
+        flex-direction: column;
+    }
+    
+    .countdown-el{
+        text-align: center;
+        justify-self: center;
+        display: flex;
+        align-items: center;
+        width: 3vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .countdown-elms{
+        margin-right: -100px;
+    }
+    .countdown-el .span{
+        font-size: 1.5rem;
+        color: white;
+    }
+    
+    .countdown-el .big-text{
+        font-size: 5rem;
+        color: white;
+    }
+    }
